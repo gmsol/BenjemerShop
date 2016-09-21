@@ -1,0 +1,164 @@
+/*start of styles for top navigation*/
+body {
+	background:linear-gradient(white,white,silver);
+}
+header.page-header {
+  /*background:#DDD !important;*/
+  background-image:url(../img/header.jpg);
+  background-repeat:repeat-x;
+  margin:0;
+  border:none;
+
+  
+}
+header.page-header a:hover {
+	text-decoration:none;
+}
+header.page-header h1 {
+	color:#09C;
+	font-size:46px;
+	text-shadow:2px 2px 2px  black;
+}
+header ul {/*social media logo*/
+	position:absolute;
+	top:40px;
+	right:10px;
+}
+
+.topNav {
+   font-size: 18px;
+   /*background:url('http://millercnc.com/millerwp/wp-content/uploads/2014/05/brushed-metal.jpg');  */
+   background:url(../img/nav_bg.jpg) repeat;
+   border:none;
+   border-radius:0;
+ 
+ 
+}
+ .glyphicon {
+	 color:#2A3F55;
+ }
+.navbar-header a.navbar-brand {
+	 background:#808080;
+	 color:#FFFBF0;	
+	 font-size:24px;
+	 font-family:"Comic Sans MS", cursive;
+	 height:51.5px;
+	/* box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.2);*/
+ }
+
+#navCollapse ul li a  {
+	background:rgba(89,89,89,1.0);
+	color:#FFFBF0;	
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);		
+}
+#navCollapse ul li a:hover {
+	background:#444;
+	color:lightblue;
+}
+.navbar-left {
+	margin-left:-15px;/*to align with slider*/
+}
+/*end of styles for top navigation*/
+
+/*carousel*/
+.carousel{
+    background:black;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image to center */
+	border:1px solid slategray;
+	
+}
+
+/*content*/
+
+.owner-img {
+	margin-top:30px;
+}
+footer {
+	margin-top:50px;
+    padding: 40px 0;
+    /*background:url('http://millercnc.com/millerwp/wp-content/uploads/2014/05/brushed-metal.jpg');*/
+    background:url(../img/nav_bg.jpg) repeat;
+    border:none;
+	border-top:2px inset rgba(255, 255, 255, 0.3);
+
+}
+footer li.pipe {
+	color:#A0A0A4;
+}
+footer ul.list-inline li a  {
+	font-size:18px;
+    color:#FFFBF0;
+}
+footer ul.list-inline li a:hover {
+	color:#A0A0A4;
+}
+p.copyright {
+    margin: 15px 0 0;
+	color:#DDD;
+}
+
+/*start media query for small devices*/
+
+@media only screen  and (min-device-width : 320px) and (max-width: 767px) {
+.navbar-header a.navbar-brand {
+       font-size:22px;
+	   font-family: 'Kaushan Script', cursive;
+	   background:rgba(54,77,108, 1.0);
+	   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+	   color:#FFCD32;
+ }
+
+ #navCollapse {
+	 border:none;/*remove top border when click hamburger btn*/
+ }
+ #navCollapse ul li a {
+       background:url(../img/nav_bg.jpg) repeat;
+	   box-shadow:none;
+ }
+button.navbar-toggle {
+	border:none;/*remove hamburger btn border*/	
+	
+}
+.carousel{
+    margin-top:5px;
+}
+
+/*change 3 stripes color */
+.navbar-default .navbar-toggle .icon-bar { 
+    background-color: #fff;
+}
+
+ .glyphicon {
+	 color:#A0A0A4;
+ }
+
+ ul.socialButton li {
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+		
+  }
+
+
+ /*social icons collapse*/  
+li.hideIt {
+	text-align:center;
+}
+li.hideIt a {
+	display:inline-block;
+}
+li.hideIt .fa-twitter, li.hideIt .fa-linkedin {
+	color:white;
+}
+
+.contact-form {
+	width:97%;
+}
+
+}
+
+
+
